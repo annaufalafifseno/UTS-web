@@ -1,0 +1,17 @@
+﻿<?php include 'php/header.php'; ?>
+
+
+<?php
+$query = "SELECT content FROM menus WHERE title='Home'";
+$result = mysqli_query($conn, $query);
+$row = mysqli_fetch_assoc($result);
+?>
+
+
+<main>
+    <h1>Home</h1>
+    <p><?php echo $row['content']; ?></p>
+</main>
+
+
+<?php include 'php/footer.php'; ?>
