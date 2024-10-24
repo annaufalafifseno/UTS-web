@@ -1,0 +1,15 @@
+﻿/portfolio
+   /assets
+      /css
+         style.css
+   /php
+      db.php
+      header.php
+      footer.php
+   /pages
+      home.php
+      about.php
+      projects.php
+      skills.php
+      contact.php
+   index.php
