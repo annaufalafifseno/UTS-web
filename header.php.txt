@@ -1,0 +1,25 @@
+﻿<?php
+include 'db.php';
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Portfolio - Ansen</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/index.php">Home</a></li>
+                <li><a href="/pages/about.php">About</a></li>
+                <li><a href="/pages/projects.php">Projects</a></li>
+                <li><a href="/pages/skills.php">Skills</a></li>
+                <li><a href="/pages/contact.php">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
