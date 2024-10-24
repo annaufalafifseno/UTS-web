@@ -1,0 +1,19 @@
+﻿CREATE DATABASE portfolio_db;
+
+
+USE portfolio_db;
+
+
+CREATE TABLE menus (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255),
+    content TEXT
+);
+
+
+INSERT INTO menus (title, content) VALUES 
+('Home', 'Welcome to my personal portfolio website. Explore to know more about me.'),
+('About', 'I am Ansen, a passionate developer with interests in web development, algorithms, and dancing.'),
+('Projects', 'Some of my recent projects include web applications and algorithms optimization.'),
+('Skills', 'I am proficient in PHP, MySQL, JavaScript, and web design.'),
+('Contact', 'Feel free to reach out to me through my email: ansen@gmail.com.');
